@@ -36,7 +36,7 @@ db_pool =None
 OWNER_ID=None
 
 # Models
-LOCAL_CODER="qwen2.5:3b"  # 7b needs 8GB RAM, use 3b until upgrade
+LOCAL_CODER="qwen2.5-coder:7b"
 LOCAL_MAIN ="qwen2.5:3b"
 LOCAL_FAST ="llama3.2:1b"
 GROQ_FAST  ="llama-3.1-8b-instant"
